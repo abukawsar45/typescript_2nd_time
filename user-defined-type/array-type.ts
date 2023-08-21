@@ -1,4 +1,4 @@
-let userNames: (string[] | number[] | boolean[]);
+let userList: (string | number | boolean)[] ;
 
 
-userNames=['324', 'abu', 345];
+userList =['324', 'abu', 345, false];
