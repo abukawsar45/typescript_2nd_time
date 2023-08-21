@@ -1,7 +1,7 @@
 let userName = 'AKS';
-console.log(userName)
-let userName2 = 'AKS2';
-console.log(userName2)
+console.log(userName);
+// let userName2 = 'AKS2';
+// console.log(userName2);
 
 // function
 const sum =(num1:number, num2: number)=>{
