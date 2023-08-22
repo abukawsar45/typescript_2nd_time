@@ -2,4 +2,4 @@
 let user: (string | number | boolean)[];
 
 user = ['aks', true, 324]
-console.log(user[12])
+console.log(user[0])
