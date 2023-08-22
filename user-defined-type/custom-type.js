@@ -10,5 +10,11 @@ userss.push(userY);
 // console.log(userss)
 for (var key in userss) {
     // console.log(userss[key]['userName'])
-    console.log(userss);
+    // console.log(userss)
 }
+var getRequest;
+getRequest = 'GET';
+var handleRequestType = function (requestType) {
+    console.log(requestType);
+};
+handleRequestType("GET");

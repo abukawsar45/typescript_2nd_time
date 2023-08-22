@@ -24,5 +24,15 @@ userss.push(userY);
 // console.log(userss)
 for (const key in userss) {
   // console.log(userss[key]['userName'])
-  console.log(userss)
+  // console.log(userss)
 }
+
+type RequestTpe = "GET" | "POST";
+
+let getRequest: RequestTpe;
+getRequest= 'GET'
+
+const handleRequestType = (requestType: RequestTpe) => {
+  console.log(requestType)
+};
+handleRequestType("GET")
