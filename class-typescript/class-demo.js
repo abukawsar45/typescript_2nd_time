@@ -13,3 +13,5 @@ var User = /** @class */ (function () {
 // user1 - name: aks2, age: 23;
 var user1 = new User('abu kaw sar', 22);
 user1.displayData();
+var user2 = new User('abu kaw sar2', 23);
+user2.displayData();

@@ -19,3 +19,6 @@ constructor(userName:string, age:number){
 
 let user1 = new User('abu kaw sar', 22);
 user1.displayData();
+
+let user2 = new User('abu kaw sar2', 23);
+user2.displayData();
